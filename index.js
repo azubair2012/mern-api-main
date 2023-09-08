@@ -8,7 +8,7 @@ const connectDb = require("./config/dbConnection");
 const postroute = require("./routers/postRoute");
 const getroute = require("./routers/getRoute");
 const putroute = require("./routers/updateRoute");
-const deleteroute = require("./routers/deleteroute");
+const deleteroute = require("./routers/deleteRoute");
 
 // Database connection with MongoDB
 connectDb();
